@@ -14,6 +14,7 @@ public class Notes {
         Faker faker = new Faker();
         userName = faker.name().firstName();
         password = String.valueOf(faker.number().randomNumber(11, true));
+        //commit faker
 
 
     }
